@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingVertical="10dp"
+    android:background="@drawable/boder_item_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Space
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imv_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+    </androidx.cardview.widget.CardView>
+    <Space
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_name_diretory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

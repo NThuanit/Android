@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingStart="20dp"
+    android:background="@color/gray"
+    android:textColor="@color/white"
+    android:text="20/9/2023 ( Thứ  4 )"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>

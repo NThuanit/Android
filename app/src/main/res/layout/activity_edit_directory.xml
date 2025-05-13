@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8F8"
+        android:paddingVertical="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="0dp"/>
+        <ImageButton
+            android:id="@+id/imbtn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F8F8F8"
+            android:src="@drawable/icon_back" />
+
+        <LinearLayout
+            android:backgroundTint="#F8F8F8"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_gravity="center"
+                android:id="@+id/btn_tien_chi"
+                android:layout_width="106dp"
+                android:layout_height="25dp"
+                android:background="@color/pink"
+                android:text="Tiền chi"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:backgroundTint="#F8F8F8"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_gravity="center"
+                android:id="@+id/btn_tien_thu"
+                android:layout_width="106dp"
+                android:layout_height="25dp"
+                android:background="@drawable/border_btn_tienthu"
+                android:text="Tiền thu"
+                android:textColor="@color/pink" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imbtn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F8F8F8"
+            android:src="@drawable/icon_add" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+</LinearLayout>

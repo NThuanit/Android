@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="1dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="13dp">
+    <androidx.cardview.widget.CardView
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="50dp">
+        <ImageView
+            android:id="@+id/imvAvtSpending"
+            android:scaleType="centerCrop"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <Space
+        android:layout_width="8dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/tv_name_diretory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ăn uống"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="8dp"
+        android:layout_height="0dp" />
+    <TextView
+        android:id="@+id/tv_note"
+        android:textColor="@color/gray"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="8dp"
+        android:layout_height="0dp" />
+    <TextView
+        android:id="@+id/tv_spending_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100,000đ" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DatePickerStyle">
+        <item name="android:datePickerStyle">@style/MyDatePicker</item>
+    </style>
+
+    <style name="MyDatePicker">
+        <item name="android:calendarViewShown">false</item> <!-- Ẩn lịch -->
+        <item name="android:spinnersShown">true</item> <!-- Hiển thị Spinners (thanh cuộn) cho ngày, tháng, năm -->
+        <item name="android:textColorPrimary">@color/pink</item> <!-- Đặt màu văn bản -->
+        <item name="android:background">@color/pink</item> <!-- Đặt màu nền -->
+    </style>
+    <style name="MyCalendarTheme">
+        <item name="colorAccent">@color/pink</item>
+        <!-- Các thuộc tính khác liên quan đến màu sắc có thể được thêm vào ở đây -->
+    </style>
+</resources>

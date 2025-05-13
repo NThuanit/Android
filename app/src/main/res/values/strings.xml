@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QLCT_N3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="chia_tien">Chia tiền</string>
+    <string name="lich">Lịch</string>
+    <string name="bao_cao">Báo cáo</string>
+    <string name="chi_tieu">Chi tiêu</string>
+    <string name="thu_nhap">Thu nhập</string>
+    <string name="l_ch">Lịch</string>
+    <string name="kh_ng_c_d_li_u_n_o_c_ghi">Không có dữ liệu nào được ghi</string>
+    <string name="chi_ti_u">Chi tiêu</string>
+    <string name="thu_nh_p">Thu nhập</string>
+    <string name="t_ng">Tổng</string>
+    <string name="thong_bao">Thông báo</string>
+    <string name="delete_all">Xóa tất cả dữ liệu</string>
+    <string name="kh_ng_c_b_n_ghi_n_o_c">không có bản ghi nào cả</string>
+
+</resources>

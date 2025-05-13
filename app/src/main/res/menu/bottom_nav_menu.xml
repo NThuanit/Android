@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/pencil"
+        android:title="Trang chủ" />
+
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@drawable/lich"
+        android:title="Lịch" />
+
+    <item
+        android:id="@+id/navigation_chart"
+        android:icon="@drawable/bao_cao_icon"
+        android:title="Báo cáo" />
+
+    <item
+        android:id="@+id/navigation_menu"
+        android:icon="@drawable/menu_icon"
+        android:title="Menu" />
+</menu>

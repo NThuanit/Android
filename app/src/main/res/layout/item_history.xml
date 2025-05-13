@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/border_recycle_sharemoney"
+    android:gravity="center|start"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="20dp"
+    android:layout_marginBottom="5dp"
+    android:layout_width="match_parent"
+    android:backgroundTint="@color/pink"
+    android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/tv_name_describe"
+    android:text="đi chơi"
+    android:textColor="@color/white"
+    android:textSize="18sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</LinearLayout>
